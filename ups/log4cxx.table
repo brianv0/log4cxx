@@ -1,2 +1,3 @@
+# Next system dependencies are also required : zip gzip
 setupRequired(apr)
 setupRequired(apr_util)
