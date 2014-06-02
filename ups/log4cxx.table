@@ -1,3 +1,5 @@
 # Next system dependencies are also required : zip gzip
 setupRequired(apr)
 setupRequired(apr_util)
+
+envPrepend(LD_LIBRARY_PATH, ${PRODUCT_DIR}/lib)
